@@ -92,3 +92,8 @@ iOS [WireGuard](https://apps.apple.com/ru/app/wireguard/id1441195209)
 macOS [WireGuard](https://apps.apple.com/ru/app/wireguard/id1451685025?mt=12)
 
 При подключении клиента, достаточно лишь отсканировать QR код или загрузить config файл.
+
+Для повторного отображения QR кода вводим:
+```bash
+qrencode -t ansiutf8 <  wg0-client-name.conf # wg0-client.. наш конфиг
+```
